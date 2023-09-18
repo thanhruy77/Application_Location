@@ -466,7 +466,11 @@ h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-
+@media(max-width: 767px){
+  .img-fluid.animated{
+    max-height: 350px;
+  }
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
